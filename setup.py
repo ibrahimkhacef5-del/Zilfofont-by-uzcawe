@@ -29,6 +29,4 @@ setup(
         "Topic :: Multimedia :: Graphics :: Fonts",
     ],
 )
-PYEOF
 
-echo "✅ setup.py"
