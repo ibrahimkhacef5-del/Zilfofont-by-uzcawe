@@ -1,0 +1,5 @@
+cat > ~/zalfofont/requirements.txt << 'EOF'
+fonttools>=4.40.0
+EOF
+
+echo "✅ requirements.txt"
