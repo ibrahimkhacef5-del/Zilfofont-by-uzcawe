@@ -1,0 +1,24 @@
+cat > ~/zalfofont/.gitignore << 'EOF'
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.venv/
+venv/
+env/
+build/
+dist/
+*.ttf
+*.otf
+*.woff
+*.woff2
+tests/output/
+output/*.ttf
+output/*.otf
+.DS_Store
+.vscode/
+.idea/
+*.log
+EOF
+
+echo "✅ .gitignore"
