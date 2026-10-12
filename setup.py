@@ -1,11 +1,11 @@
-cat > ~/zalfofont/setup.py << 'PYEOF'
+
 from setuptools import setup, find_packages
 
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="zalfofont",
+    name="zilfofont",
     version="1.0.0",
     description="لغة برمجة للخطوط — اكتب الخط، واحصل على TTF",
     long_description=long_description,
@@ -18,7 +18,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "zf=zalfofont.cli:main",
+            "zf=zilfofont.cli:main",
         ],
     },
     python_requires=">=3.8",
